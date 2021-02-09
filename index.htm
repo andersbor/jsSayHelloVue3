@@ -17,9 +17,9 @@
     </div>
 
     <div id="app">
-        <input v-model="name" placeholder="Name">
-        <button v-on:click="sayHello(name)" class="btn btn-primary">Do it!</button>
-        <div v-if="name"> {{message}}</div>
+        <input id="inputField" v-model="name" placeholder="Name">
+        <button id="button" v-on:click="sayHello(name)" class="btn btn-primary">Do it!</button>
+        <div id="outputField" v-if="name"> {{message}}</div>
     </div>
 
     <script src="js/index.js"></script>
